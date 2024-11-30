@@ -29,6 +29,11 @@ This is a Spring Boot-based Weather Information Service that provides detailed w
 - Maven 3.6+
 - OpenWeatherMap API Key
 
+## Low-Level Design (LLD)
+
+![WeatherInfoStructure](https://github.com/user-attachments/assets/ffde272d-ef9f-4396-80cd-976728c63b4f)
+
+
 ## Configuration
 
 ### Application Properties
