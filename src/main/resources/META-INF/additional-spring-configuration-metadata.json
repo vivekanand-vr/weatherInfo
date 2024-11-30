@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "openweathermap.api.key",
+    "type": "java.lang.String",
+    "description": "These are the API access keys of the OpenWeather APIs"
+  },
+  {
+    "name": "openweathermap.api.base-url",
+    "type": "java.lang.String",
+    "description": "These are Endpoints of OpenWeather APIs"
+  },
+  {
+    "name": "openweathermap.api.geocoding-url",
+    "type": "java.lang.String",
+    "description": "These are Endpoints of OpenWeather APIs"
+  }
+]}
