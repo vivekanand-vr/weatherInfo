@@ -4,7 +4,7 @@
 
 This is a Spring Boot-based Weather Information Service that provides detailed weather information for specific Indian pincodes. The application fetches real-time weather data from OpenWeatherMap API and offers caching mechanisms to improve performance and reduce external API calls.
 
-## Features
+### Features
 
 - Retrieve weather information by pincode
 - Geocoding support for Indian pincodes
@@ -12,22 +12,13 @@ This is a Spring Boot-based Weather Information Service that provides detailed w
 - Detailed weather descriptions
 - Support for multiple date-based queries
 
-## Technology Stack
+### Technology Stack
 
-- Java 17+
-- Spring Boot
-- Spring Web
-- OpenWeatherMap API
-- JPA/Hibernate
-- Maven
-- JUnit 5
-- Mockito
+- Java 17+, Spring Boot, Spring Web, OpenWeatherMap API, JPA/Hibernate, Maven, JUnit 5, Mockito
 
-## Prerequisites
+### Prerequisites
 
-- Java 17 or later
-- Maven 3.6+
-- OpenWeatherMap API Key
+- Java 17, Maven 3.6+, OpenWeatherMap API Key
 
 ## Low-Level Design (LLD)
 
@@ -127,22 +118,3 @@ The application uses SLF4J with Logback for logging. Log levels can be configure
 ```properties
 logging.level.com.weather=DEBUG
 ```
-
-## Performance Considerations
-
-- External API calls are minimized through caching
-- Efficient database queries
-- Lightweight Spring Boot application
-
-## Security
-
-- API key management
-- Input validation for pincodes and dates
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
